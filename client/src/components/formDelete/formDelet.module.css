@@ -1,0 +1,13 @@
+.FD{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.FD div{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}

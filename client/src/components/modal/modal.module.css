@@ -1,0 +1,29 @@
+.Modal{
+    position:fixed;
+    background: rgba(0,0,0,0.8);
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    display: none;
+    overflow-y: hidden;
+}
+
+.Modal_content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: gray;
+    padding:5px;
+    border-radius:12px;
+    max-width: 60%;
+    overflow-y: hidden;
+}
+
+.Modal.active{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    overflow-y: auto;
+    padding-top: 30vh;
+}

@@ -1,0 +1,20 @@
+.FormAdd {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.FormAdd_sub {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 50%;
+}
+
+.FormAdd button {
+    height: 40px;
+}

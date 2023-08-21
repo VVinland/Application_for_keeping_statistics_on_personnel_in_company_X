@@ -1,0 +1,25 @@
+.FP {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.valueBlocks{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    color:white;
+}
+
+.FP span{
+    font-size: 32px;
+    color:white;
+}

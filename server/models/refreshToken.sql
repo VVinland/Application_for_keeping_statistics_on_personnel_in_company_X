@@ -1,0 +1,6 @@
+CREATE TABLE REFRESH_TOKEN(
+    id SERIAL PRIMARY KEY,
+    refresh_token TEXT NOT NULL,
+    user_id INTEGER NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES EMPLOYEE(id)
+);

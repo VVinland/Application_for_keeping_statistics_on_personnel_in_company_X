@@ -1,0 +1,50 @@
+.Birthdays {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.valueBlocks {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+
+.listBirthdays {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.birthdays {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    background: darkslateblue;
+    border-radius: 8px;
+    min-width:200px;
+    min-height:50px;
+
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+
+    padding: 5px;
+}
+
+.No_listBirthdays{
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+}
